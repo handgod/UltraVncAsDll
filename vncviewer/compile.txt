@@ -1,0 +1,14 @@
+1)tools:
+DXSDK_Jun10.exe
+X16-60997VS2010UltimTrialCHS.iso
+vs2010sp1.iso
+
+2)extract nasm-2.09.10-win32.zip to C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin
+
+3)setting start project as vncview.
+
+4)dependcy project choose omnithread.
+
+5)change omnithread output from .\Debug to ..\Debug
+
+6)compile it.

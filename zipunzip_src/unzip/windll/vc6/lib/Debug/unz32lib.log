@@ -1,0 +1,35 @@
+﻿生成启动时间为 2017/3/7 15:01:43。
+     1>项目“U:\UltraVncAsDll_mydev\zipunzip_src\unzip\windll\vc6\lib\unz32lib.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\unz32lib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"U:\UltraVncAsDll_mydev\vncviewer\Debug\unz32lib.lib" /NOLOGO Debug\api.obj
+         Debug\crc32.obj
+         Debug\crc_i386.obj
+         Debug\crctab.obj
+         Debug\crypt.obj
+         Debug\explode.obj
+         Debug\extract.obj
+         Debug\fileio.obj
+         Debug\globals.obj
+         Debug\inflate.obj
+         Debug\list.obj
+         Debug\match.obj
+         Debug\nt.obj
+         Debug\process.obj
+         Debug\unreduce.obj
+         Debug\unshrink.obj
+         Debug\win32.obj
+         Debug\windll.obj
+         Debug\zipinfo.obj
+         unz32lib.vcxproj -> U:\UltraVncAsDll_mydev\vncviewer\Debug\unz32lib.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\unz32lib.unsuccessfulbuild”。
+         正在对“Debug\unz32lib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“U:\UltraVncAsDll_mydev\zipunzip_src\unzip\windll\vc6\lib\unz32lib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.87

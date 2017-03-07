@@ -1,0 +1,145 @@
+﻿生成启动时间为 2017/3/7 15:01:44。
+     1>项目“U:\UltraVncAsDll_mydev\vncviewer\vncviewer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\vncviewer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0409" /Ires /nologo /fo"Debug\vncviewer.res" res\vncviewer.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\vncviewer.exe.embed.manifest.res" Debug\vncviewer_manifest.rc 
+       PreLinkEvent:
+         Description: Setting build time...
+         cl /nologo /MTd /FoDebug\ /FdDebug\ /c buildtime.cpp
+         :VCEnd
+         buildtime.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.exe" /INCREMENTAL /NOLOGO comctl32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\vncviewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.pdb" /MAP /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /IMPLIB:"U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.lib" /MACHINE:X86 Debug\vncviewer.res
+         Debug\vncviewer.exe.embed.manifest.res
+         Debug\AboutBox.obj
+         Debug\AccelKeys.obj
+         Debug\AuthDialog.obj
+         Debug\buildtime.obj
+         Debug\ClientConnection.obj
+         Debug\ClientConnectionCacheRect.obj
+         Debug\ClientConnectionClipboard.obj
+         Debug\ClientConnectionCopyRect.obj
+         Debug\ClientConnectionCoRRE.obj
+         Debug\ClientConnectionCursor.obj
+         Debug\ClientConnectionFile.obj
+         Debug\ClientConnectionFullScreen.obj
+         Debug\ClientConnectionHextile.obj
+         Debug\ClientConnectionRaw.obj
+         Debug\ClientConnectionRRE.obj
+         Debug\ClientConnectionTight.obj
+         Debug\ClientConnectionUltra.obj
+         Debug\ClientConnectionUltra2.obj
+         Debug\ClientConnectionZlib.obj
+         Debug\ClientConnectionZlibHex.obj
+         Debug\Clipboard.obj
+         Debug\d3des.obj
+         Debug\Daemon.obj
+         Debug\dh.obj
+         Debug\DSMPlugin.obj
+         Debug\directxviewer.obj
+         Debug\display.obj
+         Debug\Exception.obj
+         Debug\FileTransfer.obj
+         Debug\FullScreenTitleBar.obj
+         Debug\KeyMap.obj
+         Debug\KeyMapjap.obj
+         Debug\Log.obj
+         Debug\LowLevelHook.obj
+         Debug\MessBox2.obj
+         Debug\minilzo.obj
+         Debug\MRU.obj
+         Debug\SessionDialog.obj
+         Debug\stdhdrs.obj
+         Debug\TextChat.obj
+         Debug\vncauth.obj
+         Debug\VNCOptions.obj
+         Debug\vncviewer.obj
+         Debug\VNCviewerApp.obj
+         Debug\VNCviewerApp32.obj
+         Debug\win32_helpers.obj
+         Debug\ZipUnzip32.obj
+         Debug\zrle.obj
+         "U:\UltraVncAsDll_mydev\vncviewer\Debug\libjpeg-turbo-win.lib"
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\rdr.lib
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\unz32lib.lib
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\zip32.lib
+         "U:\UltraVncAsDll_mydev\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibStatDebug\zlibstat.lib"
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\omnithread.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\vncviewer.exe.embed.manifest" /manifest Debug\vncviewer.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\vncviewer.exe.embed.manifest.res" Debug\vncviewer_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.exe" /INCREMENTAL /NOLOGO comctl32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\vncviewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.pdb" /MAP /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /IMPLIB:"U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.lib" /MACHINE:X86 Debug\vncviewer.res
+         Debug\vncviewer.exe.embed.manifest.res
+         Debug\AboutBox.obj
+         Debug\AccelKeys.obj
+         Debug\AuthDialog.obj
+         Debug\buildtime.obj
+         Debug\ClientConnection.obj
+         Debug\ClientConnectionCacheRect.obj
+         Debug\ClientConnectionClipboard.obj
+         Debug\ClientConnectionCopyRect.obj
+         Debug\ClientConnectionCoRRE.obj
+         Debug\ClientConnectionCursor.obj
+         Debug\ClientConnectionFile.obj
+         Debug\ClientConnectionFullScreen.obj
+         Debug\ClientConnectionHextile.obj
+         Debug\ClientConnectionRaw.obj
+         Debug\ClientConnectionRRE.obj
+         Debug\ClientConnectionTight.obj
+         Debug\ClientConnectionUltra.obj
+         Debug\ClientConnectionUltra2.obj
+         Debug\ClientConnectionZlib.obj
+         Debug\ClientConnectionZlibHex.obj
+         Debug\Clipboard.obj
+         Debug\d3des.obj
+         Debug\Daemon.obj
+         Debug\dh.obj
+         Debug\DSMPlugin.obj
+         Debug\directxviewer.obj
+         Debug\display.obj
+         Debug\Exception.obj
+         Debug\FileTransfer.obj
+         Debug\FullScreenTitleBar.obj
+         Debug\KeyMap.obj
+         Debug\KeyMapjap.obj
+         Debug\Log.obj
+         Debug\LowLevelHook.obj
+         Debug\MessBox2.obj
+         Debug\minilzo.obj
+         Debug\MRU.obj
+         Debug\SessionDialog.obj
+         Debug\stdhdrs.obj
+         Debug\TextChat.obj
+         Debug\vncauth.obj
+         Debug\VNCOptions.obj
+         Debug\vncviewer.obj
+         Debug\VNCviewerApp.obj
+         Debug\VNCviewerApp32.obj
+         Debug\win32_helpers.obj
+         Debug\ZipUnzip32.obj
+         Debug\zrle.obj
+         "U:\UltraVncAsDll_mydev\vncviewer\Debug\libjpeg-turbo-win.lib"
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\rdr.lib
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\unz32lib.lib
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\zip32.lib
+         "U:\UltraVncAsDll_mydev\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibStatDebug\zlibstat.lib"
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\omnithread.lib
+         vncviewer.vcxproj -> U:\UltraVncAsDll_mydev\vncviewer\Debug\vncviewer.exe
+       BscMake:
+         所有输出均为最新。
+       FinalizeBuildStatus:
+         正在删除文件“Debug\vncviewer.unsuccessfulbuild”。
+         正在对“Debug\vncviewer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“U:\UltraVncAsDll_mydev\vncviewer\vncviewer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.01

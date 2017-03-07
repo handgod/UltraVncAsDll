@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/3/7 15:01:43。
+     1>项目“U:\UltraVncAsDll_mydev\rdr\rdr.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\rdr.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"U:\UltraVncAsDll_mydev\vncviewer\Debug\rdr.lib" /NOLOGO Debug\FdInStream.obj
+         Debug\FdOutStream.obj
+         Debug\InStream.obj
+         Debug\NullOutStream.obj
+         Debug\ZlibInStream.obj
+         Debug\ZlibOutStream.obj
+         rdr.vcxproj -> U:\UltraVncAsDll_mydev\vncviewer\Debug\rdr.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\rdr.unsuccessfulbuild”。
+         正在对“Debug\rdr.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“U:\UltraVncAsDll_mydev\rdr\rdr.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.40

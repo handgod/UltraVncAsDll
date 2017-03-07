@@ -1,0 +1,182 @@
+﻿生成启动时间为 2017/3/7 14:58:41。
+     1>项目“U:\UltraVncAsDll_mydev\libjpeg-turbo-win\libjpeg-turbo-win.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libjpeg-turbo-win.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jccolmmx.obj" "simd/jccolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jccolss2.obj" "simd/jccolss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqnt3dn.obj" "simd/jcqnt3dn.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqntmmx.obj" "simd/jcqntmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqnts2f.obj" "simd/jcqnts2f.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqnts2i.obj" "simd/jcqnts2i.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqntsse.obj" "simd/jcqntsse.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcsammmx.obj" "simd/jcsammmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jcsamss2.obj" "simd/jcsamss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jdcolmmx.obj" "simd/jdcolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jdcolss2.obj" "simd/jdcolss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jdmermmx.obj" "simd/jdmermmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jdmerss2.obj" "simd/jdmerss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jdsammmx.obj" "simd/jdsammmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jdsamss2.obj" "simd/jdsamss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jf3dnflt.obj" "simd/jf3dnflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jfmmxfst.obj" "simd/jfmmxfst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jfmmxint.obj" "simd/jfmmxint.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jfss2fst.obj" "simd/jfss2fst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jfss2int.obj" "simd/jfss2int.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jfsseflt.obj" "simd/jfsseflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\ji3dnflt.obj" "simd/ji3dnflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jimmxfst.obj" "simd/jimmxfst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jimmxint.obj" "simd/jimmxint.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jimmxred.obj" "simd/jimmxred.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2flt.obj" "simd/jiss2flt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2fst.obj" "simd/jiss2fst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2int.obj" "simd/jiss2int.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2red.obj" "simd/jiss2red.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jisseflt.obj" "simd/jisseflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "U:\UltraVncAsDll_mydev\vncviewer\Debug\jsimdcpu.obj" "simd/jsimdcpu.asm"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./win /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D WITH_SIMD /D _UNICODE /D UNICODE /Gm /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt jcapimin.c jcapistd.c jccoefct.c jccolor.c jcdctmgr.c jchuff.c jcinit.c jcmainct.c jcmarker.c jcmaster.c jcomapi.c jcparam.c jcphuff.c jcprepct.c jcsample.c jctrans.c jdapimin.c jdapistd.c jdatadst.c jdatasrc.c jdcoefct.c jdcolor.c jddctmgr.c jdhuff.c jdinput.c jdmainct.c jdmarker.c jdmaster.c jdmerge.c jdphuff.c jdpostct.c jdsample.c jdtrans.c jerror.c jfdctflt.c jfdctfst.c jfdctint.c jidctflt.c jidctfst.c jidctint.c jidctred.c jmemmgr.c jmemnobs.c jquant1.c jquant2.c simd\jsimd_i386.c jutils.c
+         jutils.c
+         jsimd_i386.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+         jidctred.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdphuff.c
+         jdmerge.c
+         jdmaster.c
+         正在生成代码...
+         正在编译...
+         jdmarker.c
+         jdmainct.c
+         jdinput.c
+         jdhuff.c
+     1>jdhuff.c(779): warning C4018: “<”: 有符号/无符号不匹配
+         jddctmgr.c
+         jdcolor.c
+     1>jdcolor.c(226): warning C4101: “col”: 未引用的局部变量
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcsample.c
+         jcprepct.c
+         jcphuff.c
+         jcparam.c
+         jcomapi.c
+         jcmaster.c
+         jcmarker.c
+         jcmainct.c
+         正在生成代码...
+         正在编译...
+         jcinit.c
+         jchuff.c
+         jcdctmgr.c
+     1>jcdctmgr.c(182): warning C4018: “<=”: 有符号/无符号不匹配
+         jccolor.c
+     1>jccolor.c(268): warning C4101: “col”: 未引用的局部变量
+         jccoefct.c
+         jcapistd.c
+         jcapimin.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"U:\UltraVncAsDll_mydev\vncviewer\Debug\libjpeg-turbo-win.lib" /NOLOGO U:\UltraVncAsDll_mydev\vncviewer\Debug\jccolmmx.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jccolss2.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqnt3dn.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqntmmx.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqnts2f.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqnts2i.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcqntsse.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcsammmx.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jcsamss2.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jdcolmmx.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jdcolss2.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jdmermmx.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jdmerss2.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jdsammmx.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jdsamss2.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jf3dnflt.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jfmmxfst.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jfmmxint.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jfss2fst.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jfss2int.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jfsseflt.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\ji3dnflt.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jimmxfst.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jimmxint.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jimmxred.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2flt.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2fst.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2int.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jiss2red.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jisseflt.obj
+         U:\UltraVncAsDll_mydev\vncviewer\Debug\jsimdcpu.obj
+         Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcphuff.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdphuff.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jidctred.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jsimd_i386.obj
+         Debug\jutils.obj
+         libjpeg-turbo-win.vcxproj -> U:\UltraVncAsDll_mydev\vncviewer\Debug\libjpeg-turbo-win.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libjpeg-turbo-win.unsuccessfulbuild”。
+         正在对“Debug\libjpeg-turbo-win.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“U:\UltraVncAsDll_mydev\libjpeg-turbo-win\libjpeg-turbo-win.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.04

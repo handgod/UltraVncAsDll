@@ -170,14 +170,14 @@ struct vncDeadKeyMapping_t {
 
 static const vncDeadKeyMapping_t deadKeyMap[] = {
     {XK_dead_grave          , L'`'    },  // +U0060
-    {XK_dead_acute          , L'´'    },  // +U00A8
+    {XK_dead_acute          , L'? '   },  // +U00A8
     {XK_dead_acute          , L'\''   },  // +U0027
     {XK_dead_circumflex     , L'^'    },  // +U005E
     {XK_dead_tilde          , L'~'    },  // +U007E
-    {XK_dead_diaeresis      , L'¨'    },  // +U00B4
+    {XK_dead_diaeresis      , L'? '   },  // +U00B4
     {XK_dead_diaeresis      , L'"'    },  // +U0022
-    {XK_dead_abovering      , L'°'    },  // +U00B0
-    {XK_dead_cedilla        , L'¸'    },  // +U00B8
+    {XK_dead_abovering      , L'?'    },  // +U00B0
+    {XK_dead_cedilla        , L'? '   },  // +U00B8
 };
 
 // Define the X11 KeySym and UCS map, excerpted from X11R6.8.1

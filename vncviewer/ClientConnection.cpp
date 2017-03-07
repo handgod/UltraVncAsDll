@@ -64,7 +64,7 @@ extern "C" {
 #include <rdr/Exception.h>
 
 #include <rfb/dh.h>
-
+#include <Windows.h>
 #include <DSMPlugin/DSMPlugin.h> // sf@2002
 #include "common/win32_helpers.h"
 #include "display.h"
@@ -1236,7 +1236,7 @@ void ClientConnection::GTGBS_CreateToolbar()
 
 void ClientConnection::CreateDisplay()
 {
-	vnclog.Print(3, _T("CreateDisplay\n"),
+	vnclog.Print(3, _T("CreateDisplay\n"));
 
 #ifdef _WIN32_WCE
 	//const DWORD winstyle = WS_VSCROLL | WS_HSCROLL | WS_CAPTION | WS_SYSMENU;
@@ -6207,7 +6207,7 @@ void ClientConnection::GTGBS_ScrollToolbar(int dx, int dy)
 
 void ClientConnection::GTGBS_CreateDisplay()
 {
-	vnclog.Print(3, _T("GTGBS_CreateDisplay\n"),
+	vnclog.Print(3, _T("GTGBS_CreateDisplay\n"));
 
 	// Das eigendliche HauptFenster erstellen,
 	// welches das VNC-Fenster und die Toolbar enthält
